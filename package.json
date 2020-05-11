@@ -9,7 +9,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@iconify/icons-logos": "^1.0.11",
-    "@iconify/react": "^1.1.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -47,6 +46,8 @@
     ]
   },
   "devDependencies": {
-    "@iconify/icons-fa-brands": "^1.0.12"
+    "@iconify/icons-fa-brands": "^1.0.12",
+    "@iconify/icons-simple-icons": "^1.0.31",
+    "@iconify/react": "^1.1.3"
   }
 }

@@ -10,6 +10,7 @@ import javascriptIcon from '@iconify/icons-logos/javascript';
 import reactIcon from '@iconify/icons-logos/react';
 import foursquareIcon from '@iconify/icons-fa-brands/foursquare';
 import linuxIcon from '@iconify/icons-fa-brands/linux';
+import latexIcon from '@iconify/icons-simple-icons/latex';
 
 
 
@@ -48,7 +49,7 @@ class Project extends Component {
                             
                             <div class="row projectblock ">
                                
-                                <div class="col-md-5 offset-1" >
+                                <div class="col-md-5 offset-md-1" >
                                     <div class="container cardstyle">
                                     <Card>
                                     <CardHeader tag="h3">Firebase App</CardHeader>
@@ -63,7 +64,7 @@ class Project extends Component {
                                                         <Button> <Icon icon={reactIcon} /> React </Button>
                                                     </ButtonGroup>
                                             <hr></hr>
-                                                    <Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button>
+                                                    <a href="https://github.com/AsisASotelo/Firebase_JSON"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                         </CardBody>
                                     <CardFooter>Footer<FontAwesomeIcon icon="coffee"/></CardFooter>
                                     </Card>
@@ -77,14 +78,14 @@ class Project extends Component {
                                                 <CardBody>
                                                     <CardImg width ="100%" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
-                                                    <CardText>Final project of the IBM Data Science Specialization. The entire data science methodology, which begins with identifying the problem. In this case can we determine which borough of New York is best for gym accesibility and quality. Data from gym was scraped utilizing the Foursquare API. Exploratoray Data Analysis was performed on data set and then K-Nearest Algorithm was utilized to determin density.</CardText>
+                                                    <CardText>Final project of the IBM Data Science Specialization. The entire data science methodology, which begins with identifying the problem. In this case can we determine which borough of New York is best for gym accesibility and quality. Data from gym was scraped utilizing the Foursquare API. Exploratoray Data Analysis was performed on data set and then K-Nearest Algorithm was utilized to determine density.</CardText>
                                                     <hr></hr>
                                                     <ButtonGroup>
                                                         <Button> <Icon icon={pythonIcon} />  Python </Button>
                                                         <Button> <Icon icon={foursquareIcon} /> Foursquare </Button>
                                                     </ButtonGroup>
                                                     <hr></hr>
-                                                    <Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button>
+                                                    <a href="https://github.com/AsisASotelo/Coursera_Capstone"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
                                             <CardFooter>Footer</CardFooter>
                                         </Card>
@@ -92,7 +93,7 @@ class Project extends Component {
                                     
                                 </div>
 
-                                <div class="col-md-5 offset-1" >
+                                <div class="col-md-5 offset-md-1" >
                                     <div class="container cardstyle">
                                     <Card >
                                     <CardHeader tag="h3">Mandelbulb Creator</CardHeader>
@@ -106,7 +107,7 @@ class Project extends Component {
                                                         <Button> <Icon icon={linuxIcon} /> Linux </Button>
                                                     </ButtonGroup>
                                             <hr></hr>
-                                                    <Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button>
+                                                <a href="https://github.com/AsisASotelo/Mandelbulb-Raytracer"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                         </CardBody>
                                     <CardFooter>Footer</CardFooter>
                                     </Card>
@@ -120,9 +121,14 @@ class Project extends Component {
                                                 <CardBody>
                                                     <CardImg width ="100%" height="50%" src="/assets/images/fourier.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
-                                                    <CardText>Scientific report on the removal of noise from a noise time series utilizing Fourier Analysis. Most of the work was done using Jupyter Notebook and took in stock data over 2 years. Using FFT algorithm was able to decrease the noise and isolate the true signal frequency of the underlying data. Report created in LaTeX. </CardText>
+                                                    <CardText>Scientific report on the removal of noise from a noise time series utilizing Fourier Analysis. Most of the work was done using Jupyter Notebook and took in stock data over 2 years. Using FFT algorithm was able to decrease the noise and isolate the true signal frequency of the underlying data. Report created with LaTeX. </CardText>
                                                     <hr></hr>
-                                                    <Button>Go somewhere</Button>
+                                                    <ButtonGroup>
+                                                        <Button> <Icon icon={pythonIcon} />  Python </Button>
+                                                        <Button> <Icon icon={latexIcon} /> LaTeX </Button>
+                                                    </ButtonGroup>
+                                                    <hr></hr>
+                                                    <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
                                             <CardFooter>Footer</CardFooter>
                                         </Card>

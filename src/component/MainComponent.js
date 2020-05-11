@@ -19,14 +19,14 @@ class Main extends Component{
         const HomePage= () =>{
             return(
                 <Fragment>
-                    <Fade bottom duration={2000} >
+                    <Fade bottom duration={3000} >
         
                     <div class="container">
                         <div class="intro">
                             <div class="title">
                                 Asis Sotelo
                             </div>
-                            <p class="subtitle">Science, Data, and Tech</p>
+                            <p class="subtitle">Science, Data <span>&#38;</span> Tech</p>
                             </div>
                         </div>
                     </Fade>

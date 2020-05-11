@@ -25,22 +25,24 @@ class Home extends React.Component {
         <Fragment>
             {this.state.blocks.map((item,key) =>(
                 <Fragment> 
-                <div class="block" key ={key}> 
+                {/* <div class="block" key ={key}> 
                     <div class="row">
                         <Fade bottom>
-                            <h1>{`${item.author}`}</h1>
+                            <h1>{`${item.comment}`}</h1>
                         </Fade>
                         
                     </div>
                     
-                </div>
+                </div> */}
 
                 <div class="container" key ={key}> 
                     
                         <Fade bottom>
                     
                                 <div class="row">
+                                    <div class="col-8 offset-md-2">
                                     <p class="blocktext">{`${item.comment}`}</p>
+                                    </div>
                                 </div>
                             
                         </Fade>
