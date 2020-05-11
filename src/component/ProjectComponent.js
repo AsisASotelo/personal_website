@@ -42,9 +42,9 @@ class Project extends Component {
                     </Fade>
                     
                     
-                    <Fade bottom duration={2000} >
+                   
                         
-                    
+                    <Fade bottom duration={500}>
                         <div class="container ">
                             
                             <div class="row projectblock ">
@@ -139,7 +139,9 @@ class Project extends Component {
                             </div>
                             
                         </div>
-                    </Fade>
+
+                        </Fade>
+                    
            </Fragment>
         )
     }
