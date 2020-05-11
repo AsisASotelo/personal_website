@@ -66,7 +66,7 @@ class Project extends Component {
                                             <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Firebase_JSON"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                         </CardBody>
-                                    <CardFooter>Footer<FontAwesomeIcon icon="coffee"/></CardFooter>
+                                    
                                     </Card>
                                     </div>
 
@@ -87,7 +87,7 @@ class Project extends Component {
                                                     <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Coursera_Capstone"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
-                                            <CardFooter>Footer</CardFooter>
+                                            
                                         </Card>
                                     </div>
                                     
@@ -109,7 +109,7 @@ class Project extends Component {
                                             <hr></hr>
                                                 <a href="https://github.com/AsisASotelo/Mandelbulb-Raytracer"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                         </CardBody>
-                                    <CardFooter>Footer</CardFooter>
+                                    
                                     </Card>
                                     </div>
 
@@ -130,7 +130,7 @@ class Project extends Component {
                                                     <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
-                                            <CardFooter>Footer</CardFooter>
+                                            
                                         </Card>
                                     </div>
                                     
