@@ -42,7 +42,7 @@ class Project extends Component {
                     </Fade>
                     
                     
-                    <Fade >
+                    <Fade bottom duration={2000} >
                         
                     
                         <div class="container ">
@@ -51,7 +51,7 @@ class Project extends Component {
                                
                                 <div class="col-md-5 offset-md-1" >
                                     <div class="container cardstyle">
-                                    <Card>
+                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                     <CardHeader tag="h3">Firebase App</CardHeader>
                                         <CardBody>
                                             <CardImg width ="100%" height ="60%"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
@@ -73,7 +73,7 @@ class Project extends Component {
                                 </div>
                                 <div class="col-md-5">
                                     <div class="container cardstyle">
-                                        <Card>
+                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                             <CardHeader tag="h3">K-Nearest Algorithm NY Gyms</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
@@ -95,7 +95,7 @@ class Project extends Component {
 
                                 <div class="col-md-5 offset-md-1" >
                                     <div class="container cardstyle">
-                                    <Card >
+                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                     <CardHeader tag="h3">Mandelbulb Creator</CardHeader>
                                         <CardBody>
                                             <CardImg width ="100%" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
@@ -116,7 +116,7 @@ class Project extends Component {
                                 </div>
                                 <div class="col-md-5">
                                     <div class="container rdstyle">   
-                                        <Card class="shadow-lg" >
+                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">Fourier Analysis</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" height="50%" src="/assets/images/fourier.png" alt="firebase.png"></CardImg>
