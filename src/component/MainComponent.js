@@ -43,7 +43,7 @@ class Main extends Component{
         const BlogPage=() => {
             return(
                 <Fragment>
-                    <Fade duration={2000}>
+                    <Fade duration={1000}>
                         <div class="container">
                             <div class ="intro">
                                 <div class ="title">
