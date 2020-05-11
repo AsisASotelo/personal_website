@@ -40,7 +40,7 @@ class Home extends React.Component {
                         <Fade bottom>
                     
                                 <div class="row">
-                                    <div class="col-8 offset-md-2">
+                                    <div class="col-md-8 offset-md-2">
                                     <p class="blocktext">{`${item.comment}`}</p>
                                     </div>
                                 </div>
