@@ -1,0 +1,93 @@
+header {
+	
+	height: 100vh;
+	position: relative;
+	
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  font-size:80px;
+  
+}
+.cardstyle {
+  padding:20px;
+}
+
+.navbar.bg-light{
+  border: none;
+}
+
+.footercustom {
+  padding-top: 256px;
+  padding-bottom:160px;
+  font-weight:400;
+  font-size: 30%;
+}
+
+.blocktext{
+  font-size:40px;
+}
+
+.intro {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+  
+  
+  
+  
+  
+}
+
+.subtitle{
+  font-size:50%;
+}
+
+.projectblock{
+  height:100%;
+  min-height: 100vh;
+}
+
+.fill { 
+  min-height: 100%;
+  height: 100%;
+}
+.center-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+  height:70vh;
+  
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+  
+}
+
