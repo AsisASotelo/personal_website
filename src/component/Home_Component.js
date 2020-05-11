@@ -35,9 +35,18 @@ class Home extends React.Component {
                     
                 </div> */}
 
-                <div class="container" key ={key}> 
-                    
+                <div class="container" key ={key}>
+                <hr></hr>
                         <Fade bottom>
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <img class ="headshot" src= "/assets/images/headshot.jpg"></img>
+
+                                    
+                                    </div>
+                                    
+                                </div>
+                               
                     
                                 <div class="row">
                                     <div class="col-md-8 offset-md-2">

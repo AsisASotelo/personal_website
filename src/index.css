@@ -42,9 +42,19 @@ code {
 }
 
 .blocktext{
-  font-size:80%;
+  font-size:100%;
 }
 
+.headshot{
+  max-width: 60%;
+  border-radius: 50%;
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-left: 10px;
+  margin-right:10px;
+
+
+}
 .intro {
   
   min-height: 100vh;
