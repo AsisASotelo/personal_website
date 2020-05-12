@@ -19,7 +19,7 @@ class Main extends Component{
         const HomePage= () =>{
             return(
                 <Fragment>
-                    <Fade bottom duration={3000} >
+                    <Fade bottom duration={2000} >
         
                     <div class="container">
                         <div class="intro">
@@ -31,9 +31,17 @@ class Main extends Component{
                         </div>
                     </Fade>
 
+                    <Fade duration={8000}>
+                    <p className="scroll-down">Scroll Down</p>
+                    </Fade>
+
                     <Home/>
 
+
+
                 </Fragment>
+
+                
                 
 
             );

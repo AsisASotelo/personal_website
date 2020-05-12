@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {Navbar,Input, Form,FormGroup, Label,NavbarBrand,Jumbotron, Nav, NavbarToggler,Collapse, NavItem, Button, Modal, ModalBody,ModalHeader} from 'reactstrap';
+import {Navbar,NavbarBrand,Nav, NavbarToggler,Collapse, NavItem} from 'reactstrap';
 import Fade from 'react-reveal/Fade';
-import Jump from 'react-reveal/Jump';
 import {NavLink} from 'react-router-dom';
 
 import { render } from 'react-dom';
@@ -59,7 +58,7 @@ toggleNav(){
                             
                             <NavItem>
 
-                                <a class ="nav-link" href="https://github.com/AsisASotelo">Github</a>
+                                <a className ="nav-link" href="https://github.com/AsisASotelo">Github</a>
                                 
                             </NavItem>
 

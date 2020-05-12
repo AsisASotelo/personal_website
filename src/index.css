@@ -105,7 +105,17 @@ code {
     position: absolute;
     margin: 0;
     bottom: 30px;
+    text-align: center;
     width: 100%;
+    padding:0;
+    opacity:1;
+    transform:matrix(1,0,0,1,0,0);
+    transition: opacity .2s ease;
+    display: block;
+    font-size:90%;
+    
+
+
 }
 
 .fill { 
