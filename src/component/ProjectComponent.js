@@ -56,7 +56,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                         <CardHeader tag="h3">Firebase App</CardHeader>
                                             <CardBody>
-                                                <CardImg width ="100%" height ="340px"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
+                                                <CardImg width ="100%" height ="330px"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
                                                 <hr></hr>
                                                 <CardText>Web application created for INF 551. Front-end was created utilizing React, Reacstrap. Backend development was set up with Firebase. API calls were made with a simple listener set using Firebase API. Utilizes inverted index of custom CSV file to return primary key of tuple location.</CardText>
                                                 <hr></hr>
@@ -79,7 +79,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                             <CardHeader tag="h3">NY Gyms Clustering</CardHeader>
                                                 <CardBody>
-                                                    <CardImg width ="100%" height="340px" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
+                                                    <CardImg width ="100%" height="330px" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
                                                     <CardText>Final project of the IBM Data Science Specialization. The entire data science methodology, which begins with identifying the problem. In this case can we determine which borough of New York is best for gym accesibility and quality. Data from gym was scraped utilizing the Foursquare API. </CardText>
                                                     <hr></hr>
@@ -102,7 +102,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                         <CardHeader tag="h3">Mandelbulb Creator</CardHeader>
                                             <CardBody>
-                                                <CardImg width ="100%" height ="340px" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
+                                                <CardImg width ="100%" height ="330px" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
                                                 <hr></hr>
                                                 <CardText>Creates an image of a Mandelbulb which is a 3d extension of the 2-d Mandelbrot set. The image is 500 by 500 pixels and implements distance estimation for the ray tracing allowing some shadowing to appear in the image. Computational complexity causes a loading time of 3 minutes on average. All of the work was done on a Raspberry PI 3B+. </CardText>
                                                 <hr></hr>
@@ -125,7 +125,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">Fourier Analysis</CardHeader>
                                                 <CardBody>
-                                                    <CardImg width ="100%" height ="340px" src="/assets/images/fourier.png" alt="firebase.png"></CardImg>
+                                                    <CardImg width ="100%" height ="330px" src="/assets/images/fourier.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
                                                     <CardText>Scientific report on the removal of noise from a noise time series utilizing Fourier Analysis. Most of the work was done using Jupyter Notebook and took in stock data over 2 years. Using FFT algorithm was able to decrease the noise and isolate the true signal frequency of the underlying data. Report created with LaTeX. </CardText>
                                                     <hr></hr>
@@ -145,7 +145,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">HDFS Inverter</CardHeader>
                                                 <CardBody>
-                                                    <CardImg width ="100%" height="360px" src="/assets/images/inverter.png" alt="firebase.png"></CardImg>
+                                                    <CardImg width ="100%" height="330px" src="/assets/images/inverter.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
                                                     <CardText> Analyzed the Hadoop Distributed file system I tokenized the file and directory names of a Hadoop cluster Name Node deployed on Amazon Linux EC2 instances. I then wrote a python script to take an xml file and then produce another xml file known as an inverted index. Listing the file/directory names inode numbers. </CardText>
                                                     <hr></hr>
@@ -165,7 +165,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">Personal Website</CardHeader>
                                                 <CardBody>
-                                                    <CardImg width ="100%" height="360px%" src="/assets/images/website.png" alt="firebase.png"></CardImg>
+                                                    <CardImg width ="100%" height="330px" src="/assets/images/website.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
                                                     <CardText>The personal website which you are on! Designed utilizing ReactJs and Bootstrap. Great care was taken to get the aesthetics just right. The component based architecture allows for the quick swapping and rearrangement of website elements. I am constantly updating this website, as I have become obsessed with its look. </CardText>
                                                     <hr></hr>
