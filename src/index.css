@@ -23,7 +23,17 @@ code {
 }
 
 .title {
-  font-size:80px;
+  font-size:60px;
+ 
+
+  vertical-align: baseline;
+  line-height: 70px;
+  display:block;
+  border-image-slice:100%;
+  border-image-repeat: stretch;
+  transition: opacity 0.5s;
+  opacity: 1;
+  
   
 }
 .cardstyle {
@@ -74,15 +84,28 @@ code {
 }
 
 .subtitle{
-  font-size:50%;
+  font-size:60%;
 }
 
 .projectblock{
+
   
-  min-height: 100vh;
+  
  
  
   
+}
+
+.scroll-down{
+  vertical-align: baseline;
+  font-size: 1.6rem;
+    font-style: italic;
+    color: rgba(0,0,0,.54);
+    z-index: 5;
+    position: absolute;
+    margin: 0;
+    bottom: 30px;
+    width: 100%;
 }
 
 .fill { 
@@ -106,3 +129,12 @@ code {
   
 }
 
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.fadeInAnimated {
+  opacity: 0;
+  animation: fadeIn 4s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
+}
