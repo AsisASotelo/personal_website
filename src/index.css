@@ -26,13 +26,7 @@ code {
   font-size:60px;
  
 
-  vertical-align: baseline;
-  line-height: 70px;
-  display:block;
-  border-image-slice:100%;
-  border-image-repeat: stretch;
-  transition: opacity 0.5s;
-  opacity: 1;
+  
   
   
 }
@@ -71,10 +65,11 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
   font-size: calc(10px + 2vmin);
   margin-left:10px;
   margin-right:10px;
+  margin-top:350px;
   
   
   

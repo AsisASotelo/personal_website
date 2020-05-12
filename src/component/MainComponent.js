@@ -22,16 +22,18 @@ class Main extends Component{
                     <Fade bottom duration={2000} >
         
                     <div class="container">
-                        <div class="intro">
-                            <div class="title">
+                        <div class="row intro">
+                            <div class=" title">
                                 Asis Sotelo
                             </div>
-                            <p class="subtitle">Science, Data <span>&#38;</span> Tech</p>
+                                <p class="subtitle">Science, Data <span>&#38;</span> Tech</p>
                             </div>
+                            
+                            
                         </div>
                     </Fade>
 
-                    <Fade duration={8000}>
+                    <Fade duration={6000}>
                     <p className="scroll-down">Scroll Down</p>
                     </Fade>
 
@@ -61,6 +63,9 @@ class Main extends Component{
                             </div>
                         </div>
                     </Fade>
+                    <Fade duration={5000}>
+                    <p className="scroll-down">Scroll Down</p>
+                    </Fade>
                 </Fragment>
             )
         }
@@ -70,6 +75,9 @@ class Main extends Component{
             return(
                 <Fragment>
                     <Project/>
+                    <Fade duration={5000}>
+                    <p className="scroll-down">Scroll Down</p>
+                    </Fade>
 
                 </Fragment>
             )
