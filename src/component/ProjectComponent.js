@@ -59,11 +59,11 @@ class Project extends Component {
                                                 <hr></hr>
                                                 <CardText>Web application created for INF 551. Front-end was created utilizing React, Reacstrap. Backend development was set up with Firebase. API calls were made with a simple listener set using Firebase API. Utilizes inverted index of custom CSV file to return primary key of tuple location.</CardText>
                                                 <hr></hr>
-                                                        <ButtonGroup>
-                                                            <Button> <Icon icon={pythonIcon} /> Python </Button>
-                                                            <Button> <Icon icon={javascriptIcon} /> JavaScipt </Button>
-                                                            <Button> <Icon icon={reactIcon} /> React </Button>
-                                                        </ButtonGroup>
+                                                        
+                                                            <Button color= "info"> <Icon icon={pythonIcon} /> Python </Button> {' '}
+                                                            <Button> <Icon icon={javascriptIcon} /> JavaScipt </Button> {' '}
+                                                            <Button color ="danger"> <Icon icon={reactIcon} /> React </Button> {' '}
+                                                       
                                                 <hr></hr>
                                                         <a href="https://github.com/AsisASotelo/Firebase_JSON"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                             </CardBody>
@@ -82,10 +82,10 @@ class Project extends Component {
                                                     <hr></hr>
                                                     <CardText>Final project of the IBM Data Science Specialization. The entire data science methodology, which begins with identifying the problem. In this case can we determine which borough of New York is best for gym accesibility and quality. Data from gym was scraped utilizing the Foursquare API. </CardText>
                                                     <hr></hr>
-                                                    <ButtonGroup>
-                                                        <Button> <Icon icon={pythonIcon} />  Python </Button>
-                                                        <Button> <Icon icon={foursquareIcon} /> Foursquare </Button>
-                                                    </ButtonGroup>
+                                                    
+                                                        <Button color="info"> <Icon icon={pythonIcon} />  Python </Button>{' '}
+                                                        <Button color ="success"> <Icon icon={foursquareIcon} /> Foursquare </Button>
+                                                    
                                                     <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Coursera_Capstone"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
@@ -105,10 +105,11 @@ class Project extends Component {
                                                 <hr></hr>
                                                 <CardText>Creates an image of a Mandelbulb which is a 3d extension of the 2-d Mandelbrot set. The image is 500 by 500 pixels and implements distance estimation for the ray tracing allowing some shadowing to appear in the image. </CardText>
                                                 <hr></hr>
-                                                        <ButtonGroup>
-                                                            <Button> <Icon icon={pythonIcon} />  Python </Button>
-                                                            <Button> <Icon icon={linuxIcon} /> Linux </Button>
-                                                        </ButtonGroup>
+                                                        
+                                                            <Button color="info" > <Icon icon={pythonIcon} />  Python </Button>{' '}
+
+                                                            <Button color="warning" > <Icon icon={linuxIcon} /> Linux </Button>
+                                                        
                                                 <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Mandelbulb-Raytracer"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                             </CardBody>
@@ -127,10 +128,10 @@ class Project extends Component {
                                                     <hr></hr>
                                                     <CardText>Scientific report on the removal of noise from a noise time series utilizing Fourier Analysis. Most of the work was done using Jupyter Notebook and took in stock data over 2 years. Using FFT algorithm was able to decrease the noise and isolate the true signal frequency of the underlying data. Report created with LaTeX. </CardText>
                                                     <hr></hr>
-                                                    <ButtonGroup>
-                                                        <Button> <Icon icon={pythonIcon} />  Python </Button>
-                                                        <Button> <Icon icon={latexIcon} /> LaTeX </Button>
-                                                    </ButtonGroup>
+                                                    
+                                                        <Button color="info"> <Icon icon={pythonIcon} />  Python </Button>{' '}
+                                                        <Button color="primary"> <Icon icon={latexIcon} /> LaTeX </Button>
+                                                    
                                                     <hr></hr>
                                                     <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
