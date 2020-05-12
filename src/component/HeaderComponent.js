@@ -36,7 +36,7 @@ toggleNav(){
             <>
             <Fade duration={1000}>
 
-            <Navbar className="navbar navbar-expand-lg navbar-light bg-light mr-auto" expand="md">
+            <Navbar id="#navbar" className="navbar navbar-expand-lg navbar-light bg-light mr-auto" expand="md">
                 
                     <NavbarBrand className="mr-auto" href="/home">Asis <strong>Sotelo</strong></NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
@@ -44,10 +44,10 @@ toggleNav(){
 
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink className ="nav-link" to="/home">Home</NavLink>
                                 
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLink className ="nav-link" to="/blog">Blog</NavLink>
                                 

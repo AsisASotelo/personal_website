@@ -45,10 +45,10 @@ code {
 }
 
 .footercustom {
-  padding-top: 256px;
-  padding-bottom:160px;
+  padding-top: 150px;
+  padding-bottom:100px;
   font-weight:400;
-  font-size: 30%;
+  font-size: 50%;
 }
 
 .blocktext{

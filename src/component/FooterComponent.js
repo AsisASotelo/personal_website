@@ -15,7 +15,7 @@ function Footer(props){
                 <div className="row justify-content-center footercustom">             
                     <div className="col-auto">
                         
-                        <p>Designed in Los Angeles, California</p>
+                        <p>Designed in Watts, California</p>
                         <p>© Copyright 2020 Asis Sotelo</p>
                     </div>
                 </div>

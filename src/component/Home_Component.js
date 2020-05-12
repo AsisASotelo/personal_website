@@ -46,13 +46,26 @@ class Home extends React.Component {
                                     </div>
                                     
                                 </div>
+                                <hr></hr>
                                
                     
                                 <div class="row">
                                     <div class="col-md-8 offset-md-2">
-                                    <p class="blocktext">{`${item.comment}`}</p>
+                                    <p class="blocktext mt-5">{`${item.comment}`}</p>
                                     </div>
                                 </div>
+                                <div class="row">
+                                
+                                    <a href="mailto:asis.a.sotelo@icloud.com"><button type="button" class="btn mt-5 btn-outline-primary">Email</button></a>{'  '}
+                                    <a href="https://github.com/AsisASotelo"><button type="button" class="btn mt-5 btn-outline-primary">Github</button></a>{'  '}
+                                    <a href="https://www.linkedin.com/in/asis-sotelo-718753146/"><button type="button" class="btn mt-5 btn-outline-primary">LinkedIn</button></a>{'  '}
+
+
+                                </div>
+
+                                
+
+
                             
                         </Fade>
                         
