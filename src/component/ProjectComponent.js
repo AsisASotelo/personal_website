@@ -55,7 +55,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                         <CardHeader tag="h3">Firebase App</CardHeader>
                                             <CardBody>
-                                                <CardImg width ="100%" height ="60%"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
+                                                <CardImg width ="100%" height ="100%"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
                                                 <hr></hr>
                                                 <CardText>Web application created for INF 551. Front-end was created utilizing React, Reacstrap. Backend development was set up with Firebase. API calls were made with a simple listener set using Firebase API. Utilizes inverted index of custom CSV file to return primary key of tuple location.</CardText>
                                                 <hr></hr>
@@ -78,7 +78,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                             <CardHeader tag="h3">K-Nearest Algorithm NY Gyms</CardHeader>
                                                 <CardBody>
-                                                    <CardImg width ="100%" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
+                                                    <CardImg width ="100%" height="350px" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
                                                     <hr></hr>
                                                     <CardText>Final project of the IBM Data Science Specialization. The entire data science methodology, which begins with identifying the problem. In this case can we determine which borough of New York is best for gym accesibility and quality. Data from gym was scraped utilizing the Foursquare API. </CardText>
                                                     <hr></hr>
@@ -101,7 +101,7 @@ class Project extends Component {
                                         <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                         <CardHeader tag="h3">Mandelbulb Creator</CardHeader>
                                             <CardBody>
-                                                <CardImg width ="100%" height="200px" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
+                                                <CardImg width ="100%" height="360px" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
                                                 <hr></hr>
                                                 <CardText>Creates an image of a Mandelbulb which is a 3d extension of the 2-d Mandelbrot set. The image is 500 by 500 pixels and implements distance estimation for the ray tracing allowing some shadowing to appear in the image. </CardText>
                                                 <hr></hr>
