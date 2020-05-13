@@ -61,7 +61,7 @@ class Project extends Component {
                                                 <hr></hr>
                                                         
                                                             <Button className="mt-2" color= "info"> <Icon icon={pythonIcon} /> Python </Button> {' '}
-                                                            <Button className="mt-2"> <Icon icon={javascriptIcon} /> JavaScipt </Button> {' '}
+                                                            <Button className="mt-2"> <Icon icon={javascriptIcon} /> JavaScript </Button> {' '}
                                                             <Button className="mt-2" color ="danger"> <Icon icon={reactIcon} /> React </Button> {' '}
                                                        
                                                 <hr></hr>
