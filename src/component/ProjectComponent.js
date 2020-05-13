@@ -153,7 +153,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color="primary"> <Icon icon={hadoopIcon} /> Hadoop </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/HDFS_XML"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>  
@@ -173,7 +173,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color="primary"> <Icon icon={latexIcon} /> LaTeX </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/HDFS_XML"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/person_website"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>  
