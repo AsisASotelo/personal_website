@@ -21,20 +21,19 @@ class Main extends Component{
                 <Fragment>
                     <Fade bottom duration={2000} >
         
-                    <div class="container">
-                        <div class="row intro">
-                            <div class=" title">
-                                Asis Sotelo
+                        <div id ="home_title"className="container">
+                            <div className=" intro">
+                                    <div className=" title">
+                                        Asis Sotelo
+                                    </div>
+                                    <p className="subtitle">Science, Data <span>&#38;</span> Tech</p>
                             </div>
-                                <p class="subtitle">Science, Data <span>&#38;</span> Tech</p>
-                            </div>
-                            
-                            
                         </div>
+
                     </Fade>
 
                     <Fade duration={6000}>
-                    <p className="scroll-down">Scroll Down</p>
+                    <p className="scroll-down fadeInAnimated">Scroll Down</p>
                     </Fade>
 
                     <Home/>
@@ -54,18 +53,20 @@ class Main extends Component{
             return(
                 <Fragment>
                     <Fade duration={1000}>
-                        <div class="container">
-                            <div class ="intro">
-                                <div class ="title">
+                        <div className="container">
+                            <div className ="intro">
+                                <div className ="title">
                                     Blog
                                 </div>
-                                <p class="subtitle">My thoughts, in word form.</p>
+                                <p className="subtitle">My thoughts, in word form.</p>
                             </div>
                         </div>
                     </Fade>
                     <Fade duration={5000}>
                     <p className="scroll-down">Scroll Down</p>
                     </Fade>
+
+                    
                 </Fragment>
             )
         }

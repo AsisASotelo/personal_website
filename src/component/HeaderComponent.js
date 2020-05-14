@@ -35,9 +35,9 @@ toggleNav(){
             <>
             <Fade duration={1000}>
 
-            <Navbar id="#navbar" className="navbar navbar-expand-lg navbar-light bg-light mr-auto" expand="md">
+            <Navbar id="#navbar" className="navbar navbar-expand-lg navbar-light bg-light mr-auto brand-font" expand="md">
                 
-                    <NavbarBrand className="mr-auto" href="/home">Asis <strong>Sotelo</strong></NavbarBrand>
+                    <NavbarBrand className="mr-auto" href="/home">A <strong>S</strong></NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
                     
 

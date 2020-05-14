@@ -38,7 +38,9 @@ class Project extends Component {
                             </div>
                         </div>
                        
-                        
+                    </Fade>
+                    <Fade duration={5000}>
+                    <p className="scroll-down fadeInAnimated">Scroll Down</p>
                     </Fade>
                     
                     
