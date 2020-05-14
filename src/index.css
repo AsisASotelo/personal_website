@@ -4,10 +4,13 @@ header {
 	position: relative;
 	
 }
+.thick{
+  font-family: 'Tiempos Headline Black';
+}
 
 body {
   margin: 0;
-  font-family:'Tiempos Headline Regular Italic', 'Times New Roman', Times, serif
+  font-family:'Georgia', 'Times New Roman', Times, serif
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -86,9 +89,7 @@ code {
 }
 
 
-.brand-font {
-  font-family:'Tiempos Headline Regular Italic';
-}
+
 .scroll-down{
   
   font-size: 1.6rem;

@@ -37,7 +37,7 @@ toggleNav(){
 
             <Navbar id="#navbar" className="navbar navbar-expand-lg navbar-light bg-light mr-auto brand-font" expand="md">
                 
-                    <NavbarBrand className="mr-auto" href="/home">A <strong>S</strong></NavbarBrand>
+                    <NavbarBrand className="mr-auto" href="/home">A<strong></strong>S</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
                     
 
