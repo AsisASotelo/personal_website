@@ -67,7 +67,7 @@ class Project extends Component {
                                                             <Button className="mt-2" color ="danger"> <Icon icon={reactIcon} /> React </Button> {' '}
                                                        
                                                 <hr></hr>
-                                                        <a href="https://github.com/AsisASotelo/Firebase_JSON"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                        <a href="https://github.com/AsisASotelo/Firebase_JSON"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                             </CardBody>
                                         
                                         </Card>
@@ -89,7 +89,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color ="success"> <Icon icon={foursquareIcon} /> Foursquare </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/Coursera_Capstone"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/Coursera_Capstone"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>
@@ -113,7 +113,7 @@ class Project extends Component {
                                                             <Button className = "mt-2" color="warning" > <Icon icon={linuxIcon} /> Linux </Button>
                                                         
                                                 <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/Mandelbulb-Raytracer"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/Mandelbulb-Raytracer"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                             </CardBody>
                                         
                                         </Card>
@@ -135,7 +135,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color="primary"> <Icon icon={latexIcon} /> LaTeX </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/Fourier_Transform_Project"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>  
@@ -155,7 +155,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color="primary"> <Icon icon={hadoopIcon} /> Hadoop </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/HDFS_XML"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/HDFS_XML"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>  
@@ -175,7 +175,7 @@ class Project extends Component {
                                                         <Button className = "mt-2" color="primary"> <Icon icon={latexIcon} /> LaTeX </Button>
                                                     
                                                     <hr></hr>
-                                                    <a href="https://github.com/AsisASotelo/person_website"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View On GitHub</Button></a>
+                                                    <a href="https://github.com/AsisASotelo/person_website"><Button><FontAwesomeIcon icon={faGithub} size="lg"/> View Code On GitHub</Button></a>
                                                 </CardBody>
                                             
                                         </Card>  
