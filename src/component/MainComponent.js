@@ -1,12 +1,16 @@
 import React,{Component, Fragment} from 'react';
-import {Switch, Route, Redirect,withRouter} from 'react-router-dom';
+import {Switch, Route, Redirect} from 'react-router-dom';
 import Header from './HeaderComponent';
-import Home from './Home_Component';
+import Home from './HomeComponent';
 import Footer from './FooterComponent';
 import Fade from 'react-reveal/Fade';
 import Project from './ProjectComponent';
 
 
+
+// The main class holds the routing components from the 'react-router-dom' module
+// I create a constant function for each of the sections of the webpages
+// The main function could simply be a functions as I do not use of the of the props
 
 class Main extends Component{
 
@@ -16,12 +20,14 @@ class Main extends Component{
 
     render() {
         
+        // Definition of the home page function in JSX
+        // The home page utilize
         const HomePage= () =>{
             return(
                 <Fragment>
                     <Fade bottom duration={2000} >
         
-                        <div id ="home_title"className="container">
+                        <div id ="home-title" className="container">
                             <div className=" intro">
                                     <div className=" title">
                                         Asis Sotelo
@@ -33,7 +39,7 @@ class Main extends Component{
                     </Fade>
 
                     <Fade duration={6000}>
-                    <p className="scroll-down fadeInAnimated">Scroll Down</p>
+                    <p id ="homepage-scroll" className="scroll-down fadeInAnimated">Scroll Down</p>
                     </Fade>
 
                     <Home/>
@@ -48,6 +54,7 @@ class Main extends Component{
             );
 
         }
+         // Definition of the home page function in JSX
 
         const BlogPage=() => {
             return(
@@ -55,7 +62,7 @@ class Main extends Component{
                     <Fade duration={1000}>
                         <div className="container">
                             <div className ="intro">
-                                <div className ="title">
+                                <div id ="blog-title" className ="title">
                                     Blog
                                 </div>
                                 <p className="subtitle">My thoughts, in word form.</p>
@@ -63,7 +70,7 @@ class Main extends Component{
                         </div>
                     </Fade>
                     <Fade duration={5000}>
-                    <p className="scroll-down">Scroll Down</p>
+                    <p id ="blog-page-scroll" className="scroll-down">Scroll Down</p>
                     </Fade>
 
                     
@@ -77,7 +84,7 @@ class Main extends Component{
                 <Fragment>
                     <Project/>
                     <Fade duration={5000}>
-                    <p className="scroll-down">Scroll Down</p>
+                    <p id ="project-page-scroll" className="scroll-down">Scroll Down</p>
                     </Fade>
 
                 </Fragment>

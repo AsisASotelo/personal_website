@@ -29,19 +29,17 @@ class Project extends Component {
                 <Fragment>
                     <Fade  duration={2000} >
             
-                        <div id ="project_title" className="container">
+                        <div className="container">
                             <div className="intro">
-                                <div className="title">
+                                <div id ="project-title" className="title">
                                     Projects
                                 </div>
-                                <p className= "subtitle">A collection of my work.</p>
+                                <p id="project-subtitle" className= "subtitle">A collection of my work.</p>
                             </div>
                         </div>
                        
                     </Fade>
-                    <Fade duration={5000}>
-                    <p className="scroll-down fadeInAnimated">Scroll Down</p>
-                    </Fade>
+                    
                     
                     
                    
@@ -54,7 +52,7 @@ class Project extends Component {
                                 <div xs ="12" className="col-md-6 col" >
                                     <div className="mx-auto mt-5">
                                     
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                                        <Card id ="proj-firebase" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                         <CardHeader tag="h3">Firebase App</CardHeader>
                                             <CardBody>
                                                 <CardImg width ="100%" height ="330px"src="/assets/images/firebase.png" alt="cluster_gyms.png"></CardImg>
@@ -77,7 +75,7 @@ class Project extends Component {
                                 <div xs ="12" className="col-md-6 col-12">
                                     <div className="mx-auto mt-5">
                                     
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                                        <Card id ="proj-clustering"  body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                                             <CardHeader tag="h3">NY Gyms Clustering</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" height="330px" src="/assets/images/cluster_gyms.png" alt="firebase.png"></CardImg>
@@ -100,7 +98,7 @@ class Project extends Component {
 
                                 <div xs ="12" className="col-md-6 col-12">
                                     <div className="mx-auto mt-5">
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
+                                        <Card id ="proj-mandelbulb" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                         <CardHeader tag="h3">Mandelbulb Creator</CardHeader>
                                             <CardBody>
                                                 <CardImg width ="100%" height ="330px" src="/assets/images/mandelbulb.png" alt="mandelbulb.png"></CardImg>
@@ -123,7 +121,7 @@ class Project extends Component {
                                
                                 <div xs ="12" className="col-md-6 col-12">
                                     <div className="mx-auto mt-5">  
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
+                                        <Card id ="proj-fourier"  body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">Fourier Analysis</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" height ="330px" src="/assets/images/fourier.png" alt="firebase.png"></CardImg>
@@ -143,7 +141,7 @@ class Project extends Component {
                                 </div>
                                 <div xs ="12" className="col-md-6 col-12">
                                     <div className="mx-auto mt-5">  
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
+                                        <Card id ="proj-hdfs"  body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">HDFS Inverter</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" height="330px" src="/assets/images/inverter.png" alt="firebase.png"></CardImg>
@@ -163,7 +161,7 @@ class Project extends Component {
                                 </div>
                                 <div xs ="12" className="col-md-6 col-12">
                                     <div className="mx-auto mt-5">  
-                                        <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
+                                        <Card id ="personal-website" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
                                             <CardHeader tag="h3">Personal Website</CardHeader>
                                                 <CardBody>
                                                     <CardImg width ="100%" height="330px" src="/assets/images/website.png" alt="firebase.png"></CardImg>
