@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## My Personal Website
+
+Created using ReactJS and ReactJS-Animation-Group
+Any questions about the code or suggestions email me at asis.a.sotelo@icloud.com!
+
 ## Available Scripts
 
 In the project directory, you can run:
