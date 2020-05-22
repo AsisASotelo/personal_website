@@ -5,6 +5,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Created using ReactJS and ReactJS-Animation-Group
 Any questions about the code or suggestions email me at asis.a.sotelo@icloud.com!
 
+## Structure Of Code
+The program is implemented using a MainComponent that stages all of the pages as 
+components:
+
+FooterComponent.js
+HeaderComponent.js
+ProjectComponent.js
+BlogComponent.js
+MainComponent.js
+HomeComponent.js
+
+I have created a Single Page App implementation using a Router 
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
