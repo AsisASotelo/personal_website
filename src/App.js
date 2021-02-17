@@ -1,18 +1,15 @@
 import React from 'react';
-import Main from './component/MainComponent';
 import logo from './logo.svg';
 import {BrowserRouter} from 'react-router-dom';
 import './App.css';
+
+import HeaderComp from './component/HeaderComp';
 
 class App extends React.Component {
   render(){
 
     return(
-      <BrowserRouter>
-        <div>
-          <Main/>
-        </div>
-      </BrowserRouter>
+      <h1>Hello daf ad </h1>
     )
   }
 }
