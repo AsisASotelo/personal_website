@@ -39,11 +39,11 @@ class Home extends React.Component {
                 <hr></hr>
                         <Fade bottom>
                                 <div class="row">
-                                    <div class="col-md-8 offset-md-2">
+                                    {/* <div class="col-md-8 offset-md-2">
                                         <img class ="headshot" src= "/assets/images/headshot.jpg"></img>
 
                                     
-                                    </div>
+                                    </div> */}
                                     
                                 </div>
                                 <hr></hr>
